@@ -55,6 +55,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 2vmax;
+  position: fixed;
+  z-index: 50;
+  mix-blend-mode: difference;
+  color:white;
+  
 }
 
 #nav img {
@@ -89,7 +94,8 @@ body {
   font-size: 8vw;
   font-family: pop;
   font-weight: 400;
-  margin-top: 10vmax;
+  padding-top: 10vmax;
+  /* margin-top: 10vmax; */
   margin-left: 8vmax;
 }
 
