@@ -92,16 +92,16 @@ t2.to(".main", {
 let t3 = gsap.timeline({
   scrollTrigger: {
     trigger: ".page3 ",
-  
+    markers: true,
     start: "5% 10%",
-    end: "10% top",
+    end: "5% top",
     scroller: ".main",
     scrub: 3,
   },
 });
 
 t3.to(".main", {
-  backgroundColor: "black  ",
+  backgroundColor: "black",
 });
 
 let cursor = document.querySelector(".cursor");
